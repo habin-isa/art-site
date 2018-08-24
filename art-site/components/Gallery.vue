@@ -1,12 +1,16 @@
 <template>
-    <div>
-        <h1>Gallery Page Title</h1>
-        <p>Carousel of images</p>
-    </div>
+  <nuxt-link :to="'/recipes/' + id">
+    <article class="recipe">
+        <div class="thumbnail" :style="{backgroundImage: 'url(' + thumbnail + ')'}"></div>
+        <h1>{{ title }}</h1>
+        <p>{{ descriptionText }}</p>
+        <p>{{ materialsText }}</p>
+    </article>
+  </nuxt-link>
 </template>
 
 <script>
 export default {
-    
+    props: ['id', 'title', 'thumbnail', 'descriptionText', 'materialsText']
 }
 </script>
