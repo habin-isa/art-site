@@ -2,7 +2,7 @@
   "name": "art-site",
   "version": "1.0.0",
   "description": "Simple Artist Website",
-  "author": "Habin",
+  "author": "Habin Kim",
   "private": true,
   "scripts": {
     "dev": "nuxt",

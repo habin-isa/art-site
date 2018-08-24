@@ -1,6 +1,6 @@
 <template>
   <nuxt-link :to="'/recipes/' + id">
-    <article class="recipe">
+    <article class="gal">
         <div class="thumbnail" :style="{backgroundImage: 'url(' + thumbnail + ')'}"></div>
         <h1>{{ title }}</h1>
         <p>{{ descriptionText }}</p>

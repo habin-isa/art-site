@@ -26,21 +26,21 @@ export default {
                         {
                             id: "1",
                             title: "Sinking the Berg",
-                            // thumbnail: ""
+                            thumbnail: "http://www.jeromepauchant.com/cspdocs/artwork/images/nathaniel_rackowe_galerie_jerome_pauchant_75.jpg",
                             descriptionText: "Graduate show work, award winner",
                             materialsText: "Actuators, Metal, Perspex, Arduino, Oil"
                         },
                         {
                             id: "2",
                             title: "First day",
-                            // thumbnail: ""
+                            thumbnail: "http://jeromepauchant.com/cspdocs/artwork/images/nathaniel_rackowe_1975_galerie_jerome_pauchant_432.jpg",
                             descriptionText: "Site-specific installation",
                             materialsText: "Water containers, linen, rubber"
                         },
                         {
                             id: "3",
                             title: "Ctrl part III",
-                            // thumbnail: ""
+                            thumbnail: "http://www.jeromepauchant.com/cspdocs/artwork/images/nathaniel_rackowe_1975_galerie_jerome_pauchant_593.jpg",
                             descriptionText: "BYSSO show piece",
                             materialsText: "Latex, Chalk, Peroxide, Ammonia, Dye"
                         },
