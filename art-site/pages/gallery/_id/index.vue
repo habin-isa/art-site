@@ -45,3 +45,8 @@ export default {
 }
 </script>
 
+<style>
+.gal-image {
+    width: 100%;
+}
+</style>

@@ -80,14 +80,23 @@
 </template>
 
 <script>
+import HomePage from '~/components/HomePage';
+import Gallery from '~/components/Gallery';
+import About from '~/components/About';
+
   export default {
+    components: {
+      HomePage,
+      Gallery,
+      About
+    },
     data() {
       return {
         clipped: false,
         drawer: true,
         fixed: false,
         items: [
-          { icon: 'apps', title: 'Welcome', to: '/' },
+          { icon: 'apps', title: 'Homepage', to: '/' },
           { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' },
           { icon: 'bubble_chart', title: 'About', to: '/about'},
           { icon: 'bubble_chart', title: 'Gallery', to: '/gallery'}
