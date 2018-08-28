@@ -82,13 +82,11 @@
 <script>
 import HomePage from '~/components/HomePage';
 import Gal from '~/components/Gal';
-import About from '~/components/About';
 
   export default {
     components: {
       HomePage,
-      Gal,
-      About
+      Gal
     },
     data() {
       return {
@@ -98,8 +96,7 @@ import About from '~/components/About';
         items: [
           { icon: 'apps', title: 'Homepage', to: '/' },
           { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' },
-          { icon: 'bubble_chart', title: 'About', to: '/about'},
-          { icon: 'bubble_chart', title: 'Gallery', to: '/gallery'}
+          { icon: 'bubble_chart', title: 'Gallery', to: '/gallery'},
         ],
         miniVariant: false,
         right: true,

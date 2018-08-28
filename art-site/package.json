@@ -8,17 +8,17 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "generate": "nuxt generate"
   },
   "dependencies": {
+    "css-loader": "^1.0.0",
     "nuxt": "^1.0.0",
-    "vue-loader": "^14.2.2",
+    "vue-loader": "^14.2.3",
+    "vue-template-compiler": "^2.5.17",
     "vuetify": "^1.0.19",
+    "webpack": "^3.11.0",
     "webpack-dev-server": "^2.9.3",
-    "webpack-split-chunks": "^0.2.1",
-    "webpack": "^3.11.0"
+    "webpack-split-chunks": "^0.2.1"
   },
   "devDependencies": {
     "cross-env": "^5.0.1",
