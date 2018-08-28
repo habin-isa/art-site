@@ -2,7 +2,7 @@
     <section class="single-image">
         <h1>{{ gal.title }}</h1>
         <div>
-            <img class="gal-image" src="gal.thumbnail" alt="gal.title">
+            <img class="gal-image" :src="gal.thumbnail" :alt="gal.title">
         </div>
         <p>{{ gal.descriptionText }}</p>
         <p>{{ gal.materialsText }}</p>
@@ -38,8 +38,8 @@ export default {
                             materialsText: "Latex, Chalk, Peroxide, Ammonia, Dye"
                         }
                     ].find(el => el.id === context.params.id)
-                }, 1500)
-            })
+                })
+            }, 1500)
         })
     }
 }

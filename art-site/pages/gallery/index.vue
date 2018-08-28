@@ -43,13 +43,13 @@ export default {
                             thumbnail: "http://www.jeromepauchant.com/cspdocs/artwork/images/nathaniel_rackowe_1975_galerie_jerome_pauchant_593.jpg",
                             descriptionText: "BYSSO show piece",
                             materialsText: "Latex, Chalk, Peroxide, Ammonia, Dye"
-                        },
+                        }
                     ]
-                }, 1500)
-            })
+                })
+            }, 1500)
         })
     }
-}
+};
 </script>
 
 <style scoped>
