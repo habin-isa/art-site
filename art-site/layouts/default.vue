@@ -81,13 +81,13 @@
 
 <script>
 import HomePage from '~/components/HomePage';
-import Gallery from '~/components/Gallery';
+import Gal from '~/components/Gal';
 import About from '~/components/About';
 
   export default {
     components: {
       HomePage,
-      Gallery,
+      Gal,
       About
     },
     data() {

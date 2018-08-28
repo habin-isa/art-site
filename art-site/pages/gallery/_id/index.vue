@@ -46,7 +46,16 @@ export default {
 </script>
 
 <style>
+.single-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    flex-flow: column;
+}
+
 .gal-image {
-    width: 100%;
+    width: 30%;
 }
 </style>

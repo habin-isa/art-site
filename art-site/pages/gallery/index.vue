@@ -1,6 +1,6 @@
 <template>
   <section class="gallery">
-      <Gallery
+      <Gal
         v-for="gal in gallery"
         :key="gal.id"
         :title="gal.title"
@@ -12,11 +12,11 @@
 </template>
 
 <script>
-import Gallery from '~/components/Gallery'
+import Gal from '~/components/Gal';
 
 export default {
     components: {
-        Gallery
+        Gal
     },
     asyncData() {
         return new Promise((resolve, reject) => {
@@ -51,3 +51,12 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+</style>
