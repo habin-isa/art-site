@@ -120,6 +120,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+      vendor: ['axios'],
       layouts: false,
       pages: true,
       commons: true,
@@ -128,7 +129,7 @@ module.exports = {
         PRODUCTION: JSON.stringify(true),
         '$': 'jquery',
         '_': 'lodash'
-      })
+      }),
     ],
     /*
     ** You can extend webpack config here

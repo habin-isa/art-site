@@ -10,6 +10,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
     asyncData(context) {
         return new Promise((resolve, reject) => {
