@@ -2,7 +2,7 @@
   <nuxt-link :to="'/gallery/' + id">
     <article class="gal">
         <div class="thumbnail" :style="{backgroundImage: 'url(' + thumbnail + ')'}"></div>
-        <h1>{{ Title }}</h1>
+        <h1>{{ title }}</h1>
         <p>{{ descriptionText }}</p>
         <p>{{ materialsText }}</p>
     </article>

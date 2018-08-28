@@ -104,7 +104,7 @@ import About from '~/components/About';
         miniVariant: false,
         right: true,
         rightDrawer: false,
-        title: 'Vuetify.js'
+        title: 'Portfolio site'
       }
     }
   }
